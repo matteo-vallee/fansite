@@ -1,0 +1,280 @@
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+header{ 
+  background-color: rgb(40,40,40);
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+ header .conteneur-droite nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20%;
+ }
+
+ header .conteneur-gauche {
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  padding-top: 35px;
+  padding-left: 35px;
+ }
+ header .conteneur-droite nav a{
+  margin-left: 100px;
+  color: white;
+  padding-top: 35px;
+font-family: 'Archivo',sans-serif;
+ }
+
+ main .main-droite{
+display: flex;
+flex-direction: column;
+ }
+main{
+  display: flex;
+  flex-direction: column;
+}
+#sekiro:hover{
+  filter: brightness(100%);
+  height: 300px;
+}
+#sekiro{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+   overflow: hidden;
+}
+#eldenring:hover{
+  filter: brightness(100%);
+  height: 300px;
+}
+#eldenring{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+}
+#bloodborn:hover{
+  filter: brightness(100%);
+  height: 300px;
+}
+#bloodborn{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+}
+#darksouls:hover{
+  filter: brightness(100%);
+  height: 300px;
+}
+#darksouls{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+}
+#armored:hover{
+  filter: brightness(100%);
+  height: 300px;
+}
+#armored{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+}
+#flower:hover{
+  filter: brightness(100%);
+  height: 300px;
+} 
+#flower{
+  filter: brightness(50%);
+  transition: 0.5s;
+   object-fit: cover ;
+   object-position: 0px 0px 0px 250px ;
+}
+footer{
+  background-color: rgb(40,40,40);
+ height: 100px; 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0%;
+ margin: 0%;
+}
+.article-press{
+padding-top: 2%;
+padding-left: 10%;
+font-family: 'Archivo',sans-serif;
+color: white;
+}
+.list{
+  font-family: 'Archivo',sans-serif;  
+  padding-top: 2%;
+  padding-right: 8%;
+}
+.list a{
+  margin-left: 1%;
+  color: white;
+}
+
+#sekirologo{
+  display: block;
+  position: absolute;
+  top: 80px;
+  opacity: 0;
+  transition: 250ms;
+}
+#sekiro:hover + #sekirologo {
+  opacity: 1;
+}
+#eldenringlogo{
+  display: block;
+  position: absolute;
+  top: 270px;
+  opacity: 0;
+  transition: 250ms;
+}
+#eldenring:hover + #eldenringlogo {
+  opacity: 1;
+}
+#bloodbornelogo{
+  display: block;
+  position: absolute;
+  top: 450px;
+  opacity: 0;
+  transition: 250ms;
+}
+#bloodborn:hover + #bloodbornelogo {
+  opacity: 1;
+}
+#darksoulslogo{
+  display: block;
+  position: absolute;
+  top: 620px;
+  left: 1250px;
+  opacity: 0;
+  transition: 250ms;
+}
+#darksouls:hover + #darksoulslogo {
+  opacity: 1;
+}
+#armoredlogo{
+  display: block;
+  position: absolute;
+  top: 800px;
+  opacity: 0;
+  transition: 250ms;
+}
+#armored:hover + #armoredlogo {
+  opacity: 1;
+}
+#flowerlogo{
+  display: block;
+  position: absolute;
+  top: 960px;
+  opacity: 0;
+  transition: 250ms;
+}
+#flower:hover + #flowerlogo {
+  opacity: 1;
+}
+.img-jeu{
+  width: 100%;
+  height: 180px;
+}
+main a{
+  margin-bottom: -4px;
+}
+.txtS{
+  font-family: 'Archivo',sans-serif;
+  color: white;
+  position: relative;
+  bottom: 900px;
+  padding-left: 10%;
+}
+#txt-titre{
+  font-size: 24px;
+  font-weight: bolder ;
+  letter-spacing: 8.4px;
+}
+#txt-histoire{
+  padding-top: 2%;
+  font-size: 18px;
+  margin-right: 65%;
+}
+#txt-histoire span{
+  font-size: 20px;
+}
+#txt-systeme{
+  padding-top: 1%;
+  font-size: 18px;
+  margin-right: 60%;
+}
+.txtS iframe{
+  width:560px; height:315px;
+  padding-top: 4%;
+}
+main{
+  height: 1044px;
+}
+
+.txtD{
+  font-family: 'Archivo',sans-serif;
+  color: white;
+  position: relative;
+  bottom: 200px;
+  padding-left: 10%;
+  position: absolute;
+right: 700px;
+}
+#VElden{
+  position: absolute;
+  left: 68%;
+  bottom: 30%;
+}
+
+.txtDAR{
+  font-family: 'Archivo',sans-serif;
+  color: white;
+  position: relative;
+  top: 15%;
+  padding-left: 60%;
+  position:absolute ;
+
+}
+#txt-titreDAR{
+  font-size: 24px;
+  font-weight: bolder ;
+  letter-spacing: 8.4px;
+}
+#txt-histoireDAR{
+  padding-top: 2%;
+  font-size: 18px;
+
+}
+#txt-histoireDAR span{
+  font-size: 20px;
+}
+#txt-systemeDAR{
+  padding-top: 1%;
+  font-size: 18px;
+  margin-right: 60%;
+}
+.txtDAR iframe{
+  width:560px; height:315px;
+  padding-top: 4%;
+}
